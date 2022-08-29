@@ -127,3 +127,22 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+images/
+!models/*/images/
+data/
+.DS_Store
+train/
+test/
+*.pkl
+*.pth
+*.tar
+*.tar.gz
+
+wikiart/
+wikiart_train/
+wikiart_test/
+wclasses.csv
+.idea/
+runs/
+
+paper/
